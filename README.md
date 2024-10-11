@@ -158,10 +158,7 @@ Here are some screenshots of the project to give you an idea of its features and
 
 ![Screenshot 2024-10-11 112105](https://github.com/user-attachments/assets/0d3c9f63-e80a-4fba-96d6-8e6248426fca)
 
-![Screenshot 2024-10-11 112115](https://github.com/user-attachments/assets/88ff6570-e497-42d2-abf8-4cbb60a86051)
 
-
-![Screenshot 2024-10-11 112144](https://github.com/user-attachments/assets/c9066bf1-5880-4a13-825f-a515af07f9ee)
 
 
 ![Screenshot 2024-10-11 112214](https://github.com/user-attachments/assets/1261b79a-30b0-430f-9763-61c18790dc48)
