@@ -1,0 +1,59 @@
+.profile-container {
+   
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+   margin:auto;
+    margin-top: 40px;
+}
+
+.profile-title {
+    font-size: 24px; /* Larger font size for the title */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+.profile-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.profile-image {
+    width: 100px; /* Set the width of the profile image */
+    height: 100px; /* Set the height of the profile image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.profile-details {
+    display: flex; /* Use flexbox for the details section */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.details-row {
+    display: flex; /* Use flexbox for details in a row */
+    justify-content: center; /* Center content horizontally */
+    flex-wrap: wrap; /* Allow wrapping to next line if necessary */
+    margin-bottom: 20px; /* Space below the details */
+}
+
+.details-row p {
+    margin: 0 15px; /* Space between details */
+}
+
+.update-button {
+    padding: 10px 20px; /* Button padding */
+    background-color: #0056b3; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.update-button:hover {
+    background-color: #004494; /* Darker color on hover */
+}

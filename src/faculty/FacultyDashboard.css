@@ -1,0 +1,109 @@
+.dashboard-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #007bff; /* Sidebar background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside the sidebar */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    z-index: 1000;
+    position: fixed; /* Fixed position for sidebar */
+    height: 100vh; /* Full height */
+   
+}
+
+.content-area {
+    margin-left: 250px; /* Space for sidebar */
+    padding: 20px; /* Padding for content */
+    flex: 1; /* Take up the rest of the space */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between search and logout */
+    align-items: center; /* Center items vertically */
+    height: 60px;
+    background-color: rgb(61, 5, 243); /* Navbar background color */
+    padding: 0 20px; /* Padding for navbar */
+    top: 0;
+   
+}
+
+.tab-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+}
+.tab-button .fa-icon {
+    margin-right: 10px; /* Space between icon and text */
+    color: #1afa4b; /* Change this color to your desired icon color */
+}
+.tab-button.active {
+    background-color: #0056b3; /* Highlight active tab */
+}
+.tab-button:hover .fa-icon {
+    color: #f40cd5; /* Change to a darker shade on hover */
+}
+
+/* Style for active tab */
+.tab-button.active .fa-icon {
+    color: #28a745; /* Change color for active tab */
+}
+
+/* Hide the sidebar on smaller screens */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none; /* Hide sidebar on small screens */
+    }
+    .content-area {
+        margin-left: 0px; /* Space for sidebar */
+        padding: 20px; /* Padding for content */
+        flex: 1; /* Take up the rest of the space */
+    }
+    .search-form {
+        display: none;
+    }
+    
+}
+
+/* Optionally, add a toggle button for showing the sidebar on small screens */
+.sidebar-toggle {
+    display: none; /* Hide the button by default */
+}
+
+@media (max-width: 768px) {
+    .sidebar-toggle {
+        display: block; /* Show the toggle button on small screens */
+    }
+}
+.icon {
+    margin-right: 8px; /* Add space between icon and text */
+}
+
+/* Responsive handling for smaller screens */
+@media (max-width: 768px) {
+    .button-text {
+        display: none; /* Hide text on small screens */
+    }
+
+    .search-button, .logout-button {
+        padding: 10px; /* Adjust padding for buttons */
+    }
+
+    .logout-button .icon {
+        margin-right: 0; /* Remove margin for icon when text is hidden */
+    }
+}

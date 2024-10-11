@@ -1,0 +1,51 @@
+.total-records-container {
+    padding: 20px;
+   
+    border-radius: 8px; /* Rounded corners */
+  
+    max-width: 800px; /* Maximum width */
+    margin: auto; /* Center the component */
+    margin-top: 50px; /* Space above the container */
+}
+
+.records-title {
+    text-align: center; /* Center title */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; /* Increase title font size */
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+}
+
+.record-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    text-align: center; /* Centered text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.record-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.record-card h3 {
+    color: #007bff; /* Primary color for headings */
+    margin: 0 0 10px; /* Space below heading */
+}
+
+.record-card p {
+    font-size: 24px; /* Larger font for values */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+}
+
+.fa-icon {
+    
+ color: red;
+}

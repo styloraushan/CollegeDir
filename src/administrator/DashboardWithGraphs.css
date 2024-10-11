@@ -1,0 +1,63 @@
+
+.dashboard-graph-container {
+    margin: 30px auto; /* Center the container */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px;
+    max-width: 800px; /* Max width for larger screens */
+    width: 90%; /* Responsive for smaller screens */
+    text-align: center; /* Center-align text inside the container */
+}
+
+.dashboard-title {
+    font-size: 28px; /* Slightly larger font for title */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 20px;
+    color: #3f0ce7; /* Accent color for title */
+}
+
+.graph {
+    margin: 0 auto; /* Center the graph container */
+    height: 450px; /* Set consistent height for graphs */
+    margin-bottom: 30px; /* Add some spacing between graphs */
+    padding: 15px;
+    background-color: #ffffff; /* White background for the graph container */
+    border: 1px solid #e0e0e0; /* Subtle border */
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05); /* Soft shadow around graph */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: column; /* Ensure the title and chart stack vertically */
+}
+
+h3 {
+    font-size: 20px;
+    color: #333; /* Dark gray color for graph headings */
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .dashboard-title {
+        font-size: 22px; /* Smaller font on smaller screens */
+    }
+
+    .graph {
+        height: 300px; /* Reduce height for graphs on smaller screens */
+    }
+}
+/* Style for icons specifically */
+.tab-button .fa-icon {
+    margin-right: 8px; /* Space between icon and text */
+    color: #35e209; /* Change this color to your desired icon color */
+}
+
+/* Change icon color on hover */
+.tab-button:hover .fa-icon {
+    color: #d10898; /* Change to a darker shade on hover */
+}
+
+/* Style for active tab */
+.tab-button.active .fa-icon {
+    color: #28a745; /* Change color for active tab */
+}

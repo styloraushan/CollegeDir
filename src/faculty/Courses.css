@@ -1,0 +1,25 @@
+.courses-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.courses-table th,
+.courses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.courses-table th {
+   
+    text-align: left;
+}
+
+.courses-table tr:hover {
+    background-color: #f1f1f1;
+}

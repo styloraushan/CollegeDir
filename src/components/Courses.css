@@ -1,0 +1,88 @@
+courses-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width */
+    margin: auto; /* Center the component */
+    margin-top: 50px;
+}
+
+.courses-title {
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.courses-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.courses-table th,
+.courses-table td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light bottom border */
+}
+
+.courses-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.courses-table tr:hover {
+    background-color: #f1f1f1; /* Change background on row hover */
+}
+
+.enroll-button {
+    background-color: #28a745; /* Green for enroll */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.enrolled-courses {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.enrolled-courses-table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.enrolled-course-item {
+    background-color: #e7f3fe; /* Light blue background */
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.unenroll-button {
+    background-color: #dc3545; /* Red for unenroll */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.unenroll-button:hover {
+    background-color: #c82333; /* Darker red */
+}

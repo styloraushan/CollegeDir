@@ -1,0 +1,48 @@
+/* FacultyContact.css */
+.faculty-contact-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px; /* Maximum width */
+    margin: auto; /* Center the component */
+    margin-top: 50px;
+    
+}
+
+.faculty-title {
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.faculty-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+.faculty-table th,
+.faculty-table td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light bottom border */
+}
+
+.faculty-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.advisor-row:hover {
+    background-color: #f1f1f1; /* Change background on row hover */
+}
+
+.contact-link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

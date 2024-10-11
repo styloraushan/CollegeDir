@@ -1,0 +1,81 @@
+/* Attendance.css */
+.attendance-container {
+    padding: 20px;
+}
+
+.attendance-container h2 {
+    margin-bottom: 20px;
+}
+
+.attendance-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.attendance-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-photo {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.student-info {
+    flex-grow: 1;
+}
+
+.attendance-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.attendance-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.attendance-button.present {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.attendance-button.absent {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.attendance-button.active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.attendance-button:hover:not(.active) {
+    opacity: 0.7;
+}
+
+.submit-attendance-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-attendance-button:hover {
+    background-color: #0056b3;
+}

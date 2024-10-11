@@ -1,0 +1,36 @@
+.assignments-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width */
+    margin: auto; /* Center the component */
+    margin-top: 50px;
+}
+
+.assignments-title {
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.assignments-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.assignments-table th,
+.assignments-table td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light bottom border */
+}
+
+.assignments-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.assignments-table tr:hover {
+    background-color: #f1f1f1; /* Change background on row hover */
+}

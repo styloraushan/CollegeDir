@@ -1,0 +1,147 @@
+.manage-records-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the container */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.record-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.record-form input[type="text"],
+.record-form input[type="email"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.record-form label {
+    margin: 5px 0;
+    color: #495057; /* Darker text color for labels */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.record-list {
+    margin-top: 20px;
+}
+
+.record-list h3 {
+    margin-bottom: 10px;
+    color: #343a40; /* Dark text for section headers */
+}
+
+.record-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.record-list li {
+    padding: 10px;
+    border: 1px solid #ced4da; /* Border for each record */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; /* Space between record text and delete button */
+    align-items: center; /* Center-align items vertically */
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+/* Existing styles... */
+
+.record-form input,
+.record-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* New styles for better visibility */
+.record-image {
+    width: 50px; /* Set a fixed width for images */
+    height: 50px; /* Set a fixed height for images */
+    border-radius: 50%; /* Make images circular */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.record-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.record-item button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+.record-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Make it full width */
+}
+.record-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.record-list th, .record-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.record-list th {
+    background-color: #f2f2f2;
+}
+
+.record-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

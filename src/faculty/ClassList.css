@@ -1,0 +1,31 @@
+.class-list-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.class-list-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove double borders */
+}
+
+.class-list-table th,
+.class-list-table td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 12px; /* Padding for table cells */
+    text-align: left; /* Left-align text */
+    
+}
+.class-list-table th{
+    background-color: #007bff; /* Header background color */
+}
+
+.student-photo {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Make photo circular */
+    object-fit: cover; /* Ensure the image fits nicely */
+}
